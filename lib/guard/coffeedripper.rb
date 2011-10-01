@@ -4,6 +4,7 @@ require 'guard/watcher'
 require 'yaml'
 module Guard
   class CoffeeDripper < Guard
+    VERSION = "0.0.1"
 
     attr_accessor :config
     def self.init(guard_name = nil)
