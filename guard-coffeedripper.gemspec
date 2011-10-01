@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Guard::Coffeedripper::VERSION
   s.authors     = ["Romain Dardour"]
   s.email       = ["romain@unity.fr"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://github.com/sixdegrees/guard-coffeedripper"
+  s.summary     = "Sixdegrees modified guard-coffeedripper"
+  s.description = "Merges coffeescript files, subdirectories included"
 
   s.rubyforge_project = "guard-coffeedripper"
 
