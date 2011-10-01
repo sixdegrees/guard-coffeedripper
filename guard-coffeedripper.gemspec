@@ -4,7 +4,7 @@ require "guard-coffeedripper/version"
 
 Gem::Specification.new do |s|
   s.name        = "guard-coffeedripper"
-  s.version     = Guard::CoffeeDripper::VERSION
+  s.version     = Guard::CoffeeDripperVersion::VERSION
   s.authors     = ["Romain Dardour"]
   s.email       = ["romain@unity.fr"]
   s.homepage    = "http://github.com/sixdegrees/guard-coffeedripper"
