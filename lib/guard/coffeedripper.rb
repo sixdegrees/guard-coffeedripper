@@ -116,7 +116,7 @@ module Guard
     # Called on file(s) modifications
     def run_on_change(paths)
       paths.each do |bean|
-        change_bean(bean.split("/").last)
+        change_bean(bean)
       end
     end
   end
